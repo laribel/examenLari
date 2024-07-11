@@ -9,7 +9,7 @@ class Apuesta extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['id_game', 'fecha', 'monto'];
+    protected $guarded = [];
 
     public function juego()
     {

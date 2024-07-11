@@ -8,4 +8,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/apuestas', [ApuestaController::class, 'index'])->name('apuestas.index');
+Route::get('/apuestas', [ApuestaController::class, 'index']);
